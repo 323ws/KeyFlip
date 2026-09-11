@@ -7,7 +7,7 @@ PKG_DIR="$SCRIPT_DIR/keyflip_${VERSION}_amd64"
 
 echo "[1/4] Ensuring release binary is compiled..."
 if [ ! -f "$SCRIPT_DIR/src-tauri/target/release/keyflip" ]; then
-    export PATH="$HOME/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin:$PATH"
+    export PATH="$HOME/.cargo/bin:$HOME/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin:$PATH"
     (cd "$SCRIPT_DIR/src-tauri" && cargo build --release --bin keyflip)
 fi
 

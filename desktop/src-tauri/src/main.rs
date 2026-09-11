@@ -473,7 +473,8 @@ fn main() {
     }
 
     // 0. Single Instance Guard: Prevent multiple background/tray instances
-    let _instance_guard = match SingleInstanceGuard::acquire("Local\\KeyFlip.SingleInstance.Mutex") {
+    #[allow(unused_variables)]
+    let instance_guard = match SingleInstanceGuard::acquire("Local\\KeyFlip.SingleInstance.Mutex") {
         Some(guard) => guard,
         None => {
             // Another instance is already running!

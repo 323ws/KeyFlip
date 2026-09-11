@@ -48,15 +48,25 @@ jobs:
             libwebkit2gtk-4.1-dev \
             libayatana-appindicator3-dev \
             librsvg2-dev \
+            libssl-dev \
+            libxdo-dev \
+            libx11-dev \
+            pkg-config \
             patchelf \
             build-essential \
             curl \
             wget \
-            file
+            file \
+            libglib2.0-dev
 
       - name: Compile Layout bundles
         run: |
           node scripts/build-layouts.js
+
+      - name: Build KeyFlip Release Binary
+        run: |
+          cd desktop/src-tauri
+          cargo build --release --bin keyflip
 
       - name: Build Debian Package (.deb)
         run: |
