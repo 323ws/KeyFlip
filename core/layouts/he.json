@@ -1,0 +1,297 @@
+{
+  "$schema": "./schema.json",
+  "id": "he",
+  "name": "עברית (Hebrew SI-1452)",
+  "language": "he",
+  "direction": "rtl",
+  "standard": "ansi",
+  "hasCase": false,
+  "capsLockBehavior": "titleCasePunctuationFix",
+  "composition": null,
+  "keys": {
+    "Backquote": {
+      "default": ";",
+      "shift": "~",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit1": {
+      "default": "1",
+      "shift": "!",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit2": {
+      "default": "2",
+      "shift": "@",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit3": {
+      "default": "3",
+      "shift": "#",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit4": {
+      "default": "4",
+      "shift": "$",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit5": {
+      "default": "5",
+      "shift": "%",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit6": {
+      "default": "6",
+      "shift": "^",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit7": {
+      "default": "7",
+      "shift": "&",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit8": {
+      "default": "8",
+      "shift": "*",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit9": {
+      "default": "9",
+      "shift": ")",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit0": {
+      "default": "0",
+      "shift": "(",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Minus": {
+      "default": "-",
+      "shift": "_",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Equal": {
+      "default": "=",
+      "shift": "+",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyQ": {
+      "default": "/",
+      "shift": "Q",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyW": {
+      "default": "'",
+      "shift": "W",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyE": {
+      "default": "ק",
+      "shift": "E",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyR": {
+      "default": "ר",
+      "shift": "R",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyT": {
+      "default": "א",
+      "shift": "T",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyY": {
+      "default": "ט",
+      "shift": "Y",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyU": {
+      "default": "ו",
+      "shift": "U",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyI": {
+      "default": "ן",
+      "shift": "I",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyO": {
+      "default": "ם",
+      "shift": "O",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyP": {
+      "default": "פ",
+      "shift": "P",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "BracketLeft": {
+      "default": "]",
+      "shift": "}",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "BracketRight": {
+      "default": "[",
+      "shift": "{",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Backslash": {
+      "default": "\\",
+      "shift": "|",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyA": {
+      "default": "ש",
+      "shift": "A",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyS": {
+      "default": "ד",
+      "shift": "S",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyD": {
+      "default": "ג",
+      "shift": "D",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyF": {
+      "default": "כ",
+      "shift": "F",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyG": {
+      "default": "ע",
+      "shift": "G",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyH": {
+      "default": "י",
+      "shift": "H",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyJ": {
+      "default": "ח",
+      "shift": "J",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyK": {
+      "default": "ל",
+      "shift": "K",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyL": {
+      "default": "ך",
+      "shift": "L",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Semicolon": {
+      "default": "ף",
+      "shift": ":",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Quote": {
+      "default": ",",
+      "shift": "\"",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyZ": {
+      "default": "ז",
+      "shift": "Z",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyX": {
+      "default": "ס",
+      "shift": "X",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyC": {
+      "default": "ב",
+      "shift": "C",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyV": {
+      "default": "ה",
+      "shift": "V",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyB": {
+      "default": "נ",
+      "shift": "B",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyN": {
+      "default": "מ",
+      "shift": "N",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyM": {
+      "default": "צ",
+      "shift": "M",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Comma": {
+      "default": "ת",
+      "shift": ">",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Period": {
+      "default": "ץ",
+      "shift": "<",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Slash": {
+      "default": ".",
+      "shift": "?",
+      "altGr": null,
+      "shiftAltGr": null
+    }
+  },
+  "compounds": {},
+  "deadKeys": {}
+}

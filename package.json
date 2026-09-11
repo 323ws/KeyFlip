@@ -1,0 +1,28 @@
+{
+  "name": "keyflip",
+  "version": "1.1.1",
+  "description": "KeyFlip - Universal Keyboard Layout Corrector",
+  "scripts": {
+    "validate:layouts": "node scripts/validate-layouts.js",
+    "build:layouts": "node scripts/build-layouts.js",
+    "build:extensions": "node scripts/build-extensions.js",
+    "test:layouts": "node scripts/test-layouts.js",
+    "test:smoke": "node scripts/test-layout-addition-smoke.js",
+    "test:synthetic": "node scripts/test-synthetic-layouts.js",
+    "test:realworld": "node scripts/test-real-world-layouts.js",
+    "test:parity": "node scripts/test-js-rust-parity.js",
+    "test:e2e": "powershell -ExecutionPolicy Bypass -File scripts/test-windows-e2e.ps1",
+    "package": "node scripts/package-distribution.js",
+    "test": "node scripts/validate-layouts.js && node scripts/build-layouts.js && node scripts/test-layouts.js && node scripts/test-real-world-layouts.js && node scripts/test-layout-addition-smoke.js && node scripts/test-synthetic-layouts.js && node scripts/test-js-rust-parity.js && powershell -ExecutionPolicy Bypass -File scripts/test-windows-e2e.ps1"
+  },
+  "keywords": [
+    "keyboard",
+    "layout",
+    "typo-fixer",
+    "keyflip",
+    "qwerty",
+    "arabic"
+  ],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "KeyFlipLayout",
+  "description": "Standardized schema for KeyFlip keyboard layout definitions",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "language",
+    "direction",
+    "standard",
+    "hasCase",
+    "capsLockBehavior",
+    "keys"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the layout, e.g. en_us, ar_101, de_qwertz",
+      "pattern": "^[a-z0-9_-]+$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human readable name of the layout with localized text"
+    },
+    "language": {
+      "type": "string",
+      "description": "ISO 639-1 language code, e.g. ar, en, de, fr",
+      "pattern": "^[a-z]{2,3}$"
+    },
+    "direction": {
+      "type": "string",
+      "enum": ["ltr", "rtl"],
+      "description": "Text writing direction"
+    },
+    "standard": {
+      "type": "string",
+      "enum": ["ansi", "iso", "jis", "abnt2"],
+      "description": "Physical keyboard layout form factor"
+    },
+    "hasCase": {
+      "type": "boolean",
+      "description": "Whether this script has distinct uppercase and lowercase forms"
+    },
+    "capsLockBehavior": {
+      "type": "string",
+      "enum": ["standard", "titleCasePunctuationFix", "none"],
+      "description": "How CapsLock and TitleCase letters should be normalized"
+    },
+    "composition": {
+      "type": ["string", "null"],
+      "enum": ["hangul", null],
+      "description": "Special phonological composition rules required for this layout"
+    },
+    "keys": {
+      "type": "object",
+      "description": "Map of W3C KeyboardEvent codes to their layer outputs",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["default"],
+        "properties": {
+          "default": { "type": "string", "maxLength": 2 },
+          "shift": { "type": ["string", "null"], "maxLength": 2 },
+          "altGr": { "type": ["string", "null"], "maxLength": 2 },
+          "shiftAltGr": { "type": ["string", "null"], "maxLength": 2 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "compounds": {
+      "type": "object",
+      "description": "Ligature/compound sequences that map back to physical key actions",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["key", "layer"],
+        "properties": {
+          "key": { "type": "string" },
+          "layer": { "type": "string", "enum": ["default", "shift", "altGr", "shiftAltGr"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "deadKeys": {
+      "type": "object",
+      "description": "Accents and diacritics that combine with subsequent base keys",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": { "type": "string" }
+      }
+    }
+  },
+  "additionalProperties": false
+}

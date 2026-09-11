@@ -1,0 +1,297 @@
+{
+  "$schema": "./schema.json",
+  "id": "fa",
+  "name": "فارسی (Persian / Farsi)",
+  "language": "fa",
+  "direction": "rtl",
+  "standard": "ansi",
+  "hasCase": false,
+  "capsLockBehavior": "titleCasePunctuationFix",
+  "composition": null,
+  "keys": {
+    "Backquote": {
+      "default": "پ",
+      "shift": "÷",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit1": {
+      "default": "۱",
+      "shift": "!",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit2": {
+      "default": "۲",
+      "shift": "@",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit3": {
+      "default": "۳",
+      "shift": "#",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit4": {
+      "default": "۴",
+      "shift": "$",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit5": {
+      "default": "۵",
+      "shift": "%",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit6": {
+      "default": "۶",
+      "shift": "^",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit7": {
+      "default": "۷",
+      "shift": "&",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit8": {
+      "default": "۸",
+      "shift": "*",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit9": {
+      "default": "۹",
+      "shift": ")",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit0": {
+      "default": "۰",
+      "shift": "(",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Minus": {
+      "default": "-",
+      "shift": "_",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Equal": {
+      "default": "=",
+      "shift": "+",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyQ": {
+      "default": "ض",
+      "shift": "ْ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyW": {
+      "default": "ص",
+      "shift": "ٌ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyE": {
+      "default": "ث",
+      "shift": "ٍ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyR": {
+      "default": "ق",
+      "shift": "ً",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyT": {
+      "default": "ف",
+      "shift": "ُ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyY": {
+      "default": "غ",
+      "shift": "ِ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyU": {
+      "default": "ع",
+      "shift": "َ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyI": {
+      "default": "ه",
+      "shift": "ّ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyO": {
+      "default": "خ",
+      "shift": "]",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyP": {
+      "default": "ح",
+      "shift": "[",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "BracketLeft": {
+      "default": "ج",
+      "shift": "}",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "BracketRight": {
+      "default": "چ",
+      "shift": "{",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Backslash": {
+      "default": "ژ",
+      "shift": "|",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyA": {
+      "default": "ش",
+      "shift": "ؤ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyS": {
+      "default": "س",
+      "shift": "ئ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyD": {
+      "default": "ی",
+      "shift": "ي",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyF": {
+      "default": "ب",
+      "shift": "إ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyG": {
+      "default": "ل",
+      "shift": "أ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyH": {
+      "default": "ا",
+      "shift": "آ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyJ": {
+      "default": "ت",
+      "shift": "ة",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyK": {
+      "default": "ن",
+      "shift": "»",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyL": {
+      "default": "م",
+      "shift": "«",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Semicolon": {
+      "default": "ک",
+      "shift": ":",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Quote": {
+      "default": "گ",
+      "shift": "\"",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyZ": {
+      "default": "ظ",
+      "shift": "ك",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyX": {
+      "default": "ط",
+      "shift": "ٓ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyC": {
+      "default": "ز",
+      "shift": "ژ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyV": {
+      "default": "ر",
+      "shift": "ٰ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyB": {
+      "default": "ذ",
+      "shift": "‌",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyN": {
+      "default": "د",
+      "shift": "ء",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyM": {
+      "default": "پ",
+      "shift": "ٔ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Comma": {
+      "default": "و",
+      "shift": ">",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Period": {
+      "default": ".",
+      "shift": "<",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Slash": {
+      "default": "/",
+      "shift": "؟",
+      "altGr": null,
+      "shiftAltGr": null
+    }
+  },
+  "compounds": {},
+  "deadKeys": {}
+}

@@ -1,0 +1,346 @@
+{
+  "$schema": "./schema.json",
+  "id": "ar_101",
+  "name": "العربية (Arabic 101 - Windows)",
+  "language": "ar",
+  "direction": "rtl",
+  "standard": "ansi",
+  "hasCase": false,
+  "capsLockBehavior": "titleCasePunctuationFix",
+  "composition": null,
+  "keys": {
+    "Backquote": {
+      "default": "ذ",
+      "shift": "ّ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit1": {
+      "default": "1",
+      "shift": "!",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit2": {
+      "default": "2",
+      "shift": "@",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit3": {
+      "default": "3",
+      "shift": "#",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit4": {
+      "default": "4",
+      "shift": "$",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit5": {
+      "default": "5",
+      "shift": "%",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit6": {
+      "default": "6",
+      "shift": "^",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit7": {
+      "default": "7",
+      "shift": "&",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit8": {
+      "default": "8",
+      "shift": "*",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit9": {
+      "default": "9",
+      "shift": ")",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit0": {
+      "default": "0",
+      "shift": "(",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Minus": {
+      "default": "-",
+      "shift": "_",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Equal": {
+      "default": "=",
+      "shift": "+",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyQ": {
+      "default": "ض",
+      "shift": "َ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyW": {
+      "default": "ص",
+      "shift": "ً",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyE": {
+      "default": "ث",
+      "shift": "ُ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyR": {
+      "default": "ق",
+      "shift": "ٌ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyT": {
+      "default": "ف",
+      "shift": "لإ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyY": {
+      "default": "غ",
+      "shift": "إ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyU": {
+      "default": "ع",
+      "shift": "‘",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyI": {
+      "default": "ه",
+      "shift": "÷",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyO": {
+      "default": "خ",
+      "shift": "×",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyP": {
+      "default": "ح",
+      "shift": "؛",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "BracketLeft": {
+      "default": "ج",
+      "shift": "<",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "BracketRight": {
+      "default": "د",
+      "shift": ">",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Backslash": {
+      "default": "\\",
+      "shift": "|",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyA": {
+      "default": "ش",
+      "shift": "ِ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyS": {
+      "default": "س",
+      "shift": "ٍ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyD": {
+      "default": "ي",
+      "shift": "]",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyF": {
+      "default": "ب",
+      "shift": "[",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyG": {
+      "default": "ل",
+      "shift": "لأ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyH": {
+      "default": "ا",
+      "shift": "أ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyJ": {
+      "default": "ت",
+      "shift": "ـ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyK": {
+      "default": "ن",
+      "shift": "،",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyL": {
+      "default": "م",
+      "shift": "/",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Semicolon": {
+      "default": "ك",
+      "shift": ":",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Quote": {
+      "default": "ط",
+      "shift": "\"",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyZ": {
+      "default": "ئ",
+      "shift": "~",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyX": {
+      "default": "ء",
+      "shift": "ْ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyC": {
+      "default": "ؤ",
+      "shift": "}",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyV": {
+      "default": "ر",
+      "shift": "{",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyB": {
+      "default": "لا",
+      "shift": "لآ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyN": {
+      "default": "ى",
+      "shift": "آ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyM": {
+      "default": "ة",
+      "shift": "’",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Comma": {
+      "default": "و",
+      "shift": ",",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Period": {
+      "default": "ز",
+      "shift": ".",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Slash": {
+      "default": "ظ",
+      "shift": "؟",
+      "altGr": null,
+      "shiftAltGr": null
+    }
+  },
+  "compounds": {
+    "لا": {
+      "key": "KeyB",
+      "layer": "default"
+    },
+    "لآ": {
+      "key": "KeyB",
+      "layer": "shift"
+    },
+    "لأ": {
+      "key": "KeyG",
+      "layer": "shift"
+    },
+    "لإ": {
+      "key": "KeyT",
+      "layer": "shift"
+    },
+    "ﻻ": {
+      "key": "KeyB",
+      "layer": "default"
+    },
+    "ﻼ": {
+      "key": "KeyB",
+      "layer": "default"
+    },
+    "ﻵ": {
+      "key": "KeyB",
+      "layer": "shift"
+    },
+    "ﻶ": {
+      "key": "KeyB",
+      "layer": "shift"
+    },
+    "ﻷ": {
+      "key": "KeyG",
+      "layer": "shift"
+    },
+    "ﻸ": {
+      "key": "KeyG",
+      "layer": "shift"
+    },
+    "ﻹ": {
+      "key": "KeyT",
+      "layer": "shift"
+    },
+    "ﻺ": {
+      "key": "KeyT",
+      "layer": "shift"
+    }
+  },
+  "deadKeys": {}
+}

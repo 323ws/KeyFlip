@@ -1,0 +1,297 @@
+{
+  "$schema": "./schema.json",
+  "id": "uk",
+  "name": "Українська (Ukrainian)",
+  "language": "uk",
+  "direction": "ltr",
+  "standard": "ansi",
+  "hasCase": true,
+  "capsLockBehavior": "standard",
+  "composition": null,
+  "keys": {
+    "Backquote": {
+      "default": "'",
+      "shift": "₴",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit1": {
+      "default": "1",
+      "shift": "!",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit2": {
+      "default": "2",
+      "shift": "\"",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit3": {
+      "default": "3",
+      "shift": "№",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit4": {
+      "default": "4",
+      "shift": ";",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit5": {
+      "default": "5",
+      "shift": "%",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit6": {
+      "default": "6",
+      "shift": ":",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit7": {
+      "default": "7",
+      "shift": "?",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit8": {
+      "default": "8",
+      "shift": "*",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit9": {
+      "default": "9",
+      "shift": "(",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit0": {
+      "default": "0",
+      "shift": ")",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Minus": {
+      "default": "-",
+      "shift": "_",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Equal": {
+      "default": "=",
+      "shift": "+",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyQ": {
+      "default": "й",
+      "shift": "Й",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyW": {
+      "default": "ц",
+      "shift": "Ц",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyE": {
+      "default": "у",
+      "shift": "У",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyR": {
+      "default": "к",
+      "shift": "К",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyT": {
+      "default": "е",
+      "shift": "Е",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyY": {
+      "default": "н",
+      "shift": "Н",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyU": {
+      "default": "г",
+      "shift": "Г",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyI": {
+      "default": "ш",
+      "shift": "Ш",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyO": {
+      "default": "щ",
+      "shift": "Щ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyP": {
+      "default": "з",
+      "shift": "З",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "BracketLeft": {
+      "default": "х",
+      "shift": "Х",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "BracketRight": {
+      "default": "ї",
+      "shift": "Ї",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Backslash": {
+      "default": "ґ",
+      "shift": "Ґ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyA": {
+      "default": "ф",
+      "shift": "Ф",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyS": {
+      "default": "і",
+      "shift": "І",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyD": {
+      "default": "в",
+      "shift": "В",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyF": {
+      "default": "а",
+      "shift": "А",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyG": {
+      "default": "п",
+      "shift": "П",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyH": {
+      "default": "р",
+      "shift": "Р",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyJ": {
+      "default": "о",
+      "shift": "О",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyK": {
+      "default": "л",
+      "shift": "Л",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyL": {
+      "default": "д",
+      "shift": "Д",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Semicolon": {
+      "default": "ж",
+      "shift": "Ж",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Quote": {
+      "default": "є",
+      "shift": "Є",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyZ": {
+      "default": "я",
+      "shift": "Я",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyX": {
+      "default": "ч",
+      "shift": "Ч",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyC": {
+      "default": "с",
+      "shift": "С",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyV": {
+      "default": "м",
+      "shift": "М",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyB": {
+      "default": "и",
+      "shift": "И",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyN": {
+      "default": "т",
+      "shift": "Т",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyM": {
+      "default": "ь",
+      "shift": "Ь",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Comma": {
+      "default": "б",
+      "shift": "Б",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Period": {
+      "default": "ю",
+      "shift": "Ю",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Slash": {
+      "default": ".",
+      "shift": ",",
+      "altGr": null,
+      "shiftAltGr": null
+    }
+  },
+  "compounds": {},
+  "deadKeys": {}
+}

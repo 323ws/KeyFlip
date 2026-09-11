@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "KeyFlip - Keyboard Layout Converter",
+  "version": "1.1.1",
+  "description": "Instant keyboard layout switcher and typo corrector for text typed in the wrong language.",
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png",
+      "128": "assets/icon128.png"
+    },
+    "default_title": "KeyFlip"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "contextMenus",
+    "clipboardWrite",
+    "clipboardRead"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "omnibox": {
+    "keyword": "kf"
+  },
+  "commands": {
+    "convert-selection": {
+      "suggested_key": {
+        "default": "Ctrl+Space"
+      },
+      "description": "Convert selected text layout (Ctrl+Space)"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["layouts.js", "content.js"],
+      "css": ["content.css"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "keyflip@extension.local",
+      "strict_min_version": "109.0"
+    }
+  }
+}

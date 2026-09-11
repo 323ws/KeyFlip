@@ -1,0 +1,12 @@
+{
+  "name": "keyflip-desktop",
+  "version": "1.1.0",
+  "private": true,
+  "description": "KeyFlip - Instant Keyboard Layout Corrector for Desktop",
+  "scripts": {
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  }
+}

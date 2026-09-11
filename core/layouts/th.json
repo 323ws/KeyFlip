@@ -1,0 +1,297 @@
+{
+  "$schema": "./schema.json",
+  "id": "th",
+  "name": "ไทย (Thai Kedmanee)",
+  "language": "th",
+  "direction": "ltr",
+  "standard": "ansi",
+  "hasCase": false,
+  "capsLockBehavior": "none",
+  "composition": null,
+  "keys": {
+    "Backquote": {
+      "default": "_",
+      "shift": "%",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit1": {
+      "default": "ๅ",
+      "shift": "+",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit2": {
+      "default": "/",
+      "shift": "๑",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit3": {
+      "default": "-",
+      "shift": "๒",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit4": {
+      "default": "ภ",
+      "shift": "๓",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit5": {
+      "default": "ถ",
+      "shift": "๔",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit6": {
+      "default": "ุ",
+      "shift": "ู",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit7": {
+      "default": "ึ",
+      "shift": "฿",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit8": {
+      "default": "ค",
+      "shift": "๕",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit9": {
+      "default": "ต",
+      "shift": "๖",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Digit0": {
+      "default": "จ",
+      "shift": "๗",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Minus": {
+      "default": "ข",
+      "shift": "๘",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Equal": {
+      "default": "ช",
+      "shift": "๙",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyQ": {
+      "default": "ๆ",
+      "shift": "๐",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyW": {
+      "default": "ไ",
+      "shift": "\"",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyE": {
+      "default": "ำ",
+      "shift": "ฎ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyR": {
+      "default": "พ",
+      "shift": "ฑ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyT": {
+      "default": "ะ",
+      "shift": "ธ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyY": {
+      "default": "ั",
+      "shift": "ํ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyU": {
+      "default": "ี",
+      "shift": "๊",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyI": {
+      "default": "ร",
+      "shift": "ณ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyO": {
+      "default": "น",
+      "shift": "ฯ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyP": {
+      "default": "ย",
+      "shift": "ญ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "BracketLeft": {
+      "default": "บ",
+      "shift": "ฐ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "BracketRight": {
+      "default": "ล",
+      "shift": ",",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Backslash": {
+      "default": "ฃ",
+      "shift": "ฅ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyA": {
+      "default": "ฟ",
+      "shift": "ฤ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyS": {
+      "default": "ห",
+      "shift": "ฆ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyD": {
+      "default": "ก",
+      "shift": "ฏ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyF": {
+      "default": "ด",
+      "shift": "โ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyG": {
+      "default": "เ",
+      "shift": "ฌ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyH": {
+      "default": "้",
+      "shift": "็",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyJ": {
+      "default": "่",
+      "shift": "๋",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyK": {
+      "default": "า",
+      "shift": "ษ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyL": {
+      "default": "ส",
+      "shift": "ศ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Semicolon": {
+      "default": "ว",
+      "shift": "ซ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Quote": {
+      "default": "ง",
+      "shift": ".",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyZ": {
+      "default": "ผ",
+      "shift": "(",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyX": {
+      "default": "ป",
+      "shift": ")",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyC": {
+      "default": "แ",
+      "shift": "ฉ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyV": {
+      "default": "อ",
+      "shift": "ฮ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyB": {
+      "default": "ิ",
+      "shift": "ฺ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyN": {
+      "default": "ื",
+      "shift": "์",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyM": {
+      "default": "ท",
+      "shift": "?",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Comma": {
+      "default": "ม",
+      "shift": "ฒ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Period": {
+      "default": "ใ",
+      "shift": "ฬ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Slash": {
+      "default": "ฝ",
+      "shift": "ฦ",
+      "altGr": null,
+      "shiftAltGr": null
+    }
+  },
+  "compounds": {},
+  "deadKeys": {}
+}

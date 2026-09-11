@@ -1,0 +1,3 @@
+# KeyFlip Virtual Keyboard uinput access rule
+# Grants active seat user read/write access to /dev/uinput without root
+KERNEL=="uinput", SUBSYSTEM=="misc", TAG+="uaccess"

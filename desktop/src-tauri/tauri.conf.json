@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "KeyFlip",
+  "version": "1.1.1",
+  "identifier": "com.keyflip.desktop",
+  "build": {
+    "frontendDist": "../ui"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "KeyFlip",
+        "width": 340,
+        "height": 450,
+        "resizable": false,
+        "maximizable": false,
+        "center": true,
+        "visible": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "nsis": {
+        "installerIcon": "icons/icon.ico"
+      }
+    },
+    "linux": {
+      "deb": {
+        "depends": [],
+        "files": {
+          "/lib/udev/rules.d/99-keyflip-uinput.rules": "resources/99-keyflip-uinput.rules"
+        },
+        "postInstallScript": "resources/postinst.sh"
+      }
+    }
+  }
+}

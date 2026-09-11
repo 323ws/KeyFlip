@@ -1,0 +1,303 @@
+{
+  "$schema": "./schema.json",
+  "id": "cs",
+  "name": "Čeština (Czech QWERTZ)",
+  "language": "cs",
+  "direction": "ltr",
+  "standard": "iso",
+  "hasCase": true,
+  "capsLockBehavior": "standard",
+  "composition": null,
+  "keys": {
+    "Backquote": {
+      "default": ";",
+      "shift": "°",
+      "altGr": "`",
+      "shiftAltGr": "~"
+    },
+    "Digit1": {
+      "default": "+",
+      "shift": "1",
+      "altGr": "!",
+      "shiftAltGr": null
+    },
+    "Digit2": {
+      "default": "ě",
+      "shift": "2",
+      "altGr": "@",
+      "shiftAltGr": null
+    },
+    "Digit3": {
+      "default": "š",
+      "shift": "3",
+      "altGr": "#",
+      "shiftAltGr": null
+    },
+    "Digit4": {
+      "default": "č",
+      "shift": "4",
+      "altGr": "$",
+      "shiftAltGr": null
+    },
+    "Digit5": {
+      "default": "ř",
+      "shift": "5",
+      "altGr": "%",
+      "shiftAltGr": null
+    },
+    "Digit6": {
+      "default": "ž",
+      "shift": "6",
+      "altGr": "^",
+      "shiftAltGr": null
+    },
+    "Digit7": {
+      "default": "ý",
+      "shift": "7",
+      "altGr": "&",
+      "shiftAltGr": null
+    },
+    "Digit8": {
+      "default": "á",
+      "shift": "8",
+      "altGr": "*",
+      "shiftAltGr": null
+    },
+    "Digit9": {
+      "default": "í",
+      "shift": "9",
+      "altGr": "(",
+      "shiftAltGr": null
+    },
+    "Digit0": {
+      "default": "é",
+      "shift": "0",
+      "altGr": ")",
+      "shiftAltGr": null
+    },
+    "Minus": {
+      "default": "=",
+      "shift": "%",
+      "altGr": "-",
+      "shiftAltGr": "_"
+    },
+    "Equal": {
+      "default": "´",
+      "shift": "ˇ",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyQ": {
+      "default": "q",
+      "shift": "Q",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyW": {
+      "default": "w",
+      "shift": "W",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyE": {
+      "default": "e",
+      "shift": "E",
+      "altGr": "€",
+      "shiftAltGr": null
+    },
+    "KeyR": {
+      "default": "r",
+      "shift": "R",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyT": {
+      "default": "t",
+      "shift": "T",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyY": {
+      "default": "z",
+      "shift": "Z",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyU": {
+      "default": "u",
+      "shift": "U",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyI": {
+      "default": "i",
+      "shift": "I",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyO": {
+      "default": "o",
+      "shift": "O",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyP": {
+      "default": "p",
+      "shift": "P",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "BracketLeft": {
+      "default": "ú",
+      "shift": "/",
+      "altGr": "[",
+      "shiftAltGr": "{"
+    },
+    "BracketRight": {
+      "default": ")",
+      "shift": "(",
+      "altGr": "]",
+      "shiftAltGr": "}"
+    },
+    "Backslash": {
+      "default": "¨",
+      "shift": "'",
+      "altGr": "\\",
+      "shiftAltGr": "|"
+    },
+    "KeyA": {
+      "default": "a",
+      "shift": "A",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyS": {
+      "default": "s",
+      "shift": "S",
+      "altGr": "đ",
+      "shiftAltGr": "Đ"
+    },
+    "KeyD": {
+      "default": "d",
+      "shift": "D",
+      "altGr": "ð",
+      "shiftAltGr": "Ð"
+    },
+    "KeyF": {
+      "default": "f",
+      "shift": "F",
+      "altGr": "[",
+      "shiftAltGr": null
+    },
+    "KeyG": {
+      "default": "g",
+      "shift": "G",
+      "altGr": "]",
+      "shiftAltGr": null
+    },
+    "KeyH": {
+      "default": "h",
+      "shift": "H",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyJ": {
+      "default": "j",
+      "shift": "J",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyK": {
+      "default": "k",
+      "shift": "K",
+      "altGr": "ł",
+      "shiftAltGr": "Ł"
+    },
+    "KeyL": {
+      "default": "l",
+      "shift": "L",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Semicolon": {
+      "default": "ů",
+      "shift": "\"",
+      "altGr": "$",
+      "shiftAltGr": null
+    },
+    "Quote": {
+      "default": "§",
+      "shift": "!",
+      "altGr": "ß",
+      "shiftAltGr": null
+    },
+    "IntlBackslash": {
+      "default": "\\",
+      "shift": "|",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyZ": {
+      "default": "y",
+      "shift": "Y",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "KeyX": {
+      "default": "x",
+      "shift": "X",
+      "altGr": "#",
+      "shiftAltGr": null
+    },
+    "KeyC": {
+      "default": "c",
+      "shift": "C",
+      "altGr": "&",
+      "shiftAltGr": null
+    },
+    "KeyV": {
+      "default": "v",
+      "shift": "V",
+      "altGr": "@",
+      "shiftAltGr": null
+    },
+    "KeyB": {
+      "default": "b",
+      "shift": "B",
+      "altGr": "{",
+      "shiftAltGr": null
+    },
+    "KeyN": {
+      "default": "n",
+      "shift": "N",
+      "altGr": "}",
+      "shiftAltGr": null
+    },
+    "KeyM": {
+      "default": "m",
+      "shift": "M",
+      "altGr": null,
+      "shiftAltGr": null
+    },
+    "Comma": {
+      "default": ",",
+      "shift": "?",
+      "altGr": "<",
+      "shiftAltGr": null
+    },
+    "Period": {
+      "default": ".",
+      "shift": ":",
+      "altGr": ">",
+      "shiftAltGr": null
+    },
+    "Slash": {
+      "default": "-",
+      "shift": "_",
+      "altGr": "/",
+      "shiftAltGr": null
+    }
+  },
+  "compounds": {},
+  "deadKeys": {}
+}
