@@ -56,8 +56,8 @@ Architecture: amd64
 Maintainer: KeyFlip Contributors <info@keyflip.app>
 Depends: libwebkit2gtk-4.1-0 | libwebkit2gtk-4.0-37, libayatana-appindicator3-1, wl-clipboard, xdotool, xclip
 Description: KeyFlip - Instant Keyboard Layout Corrector
- Instantly flip text typed in the wrong keyboard language across 17+ global layouts.
- Automatically registers Alt+X global shortcut in GNOME.
+ Instantly flip text typed in the wrong keyboard language across 23 global layouts.
+ Automatically registers Ctrl+Space global shortcut in GNOME.
 EOF2
 
 # Postinst script

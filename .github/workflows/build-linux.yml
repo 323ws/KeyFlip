@@ -1,0 +1,87 @@
+﻿name: Build Linux Packages
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build-linux:
+    name: Build Debian Package & Standalone Binary
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Setup Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache Rust dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            desktop/src-tauri/target/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('desktop/src-tauri/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
+
+      - name: Install Linux build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            libwebkit2gtk-4.1-dev \
+            libayatana-appindicator3-dev \
+            librsvg2-dev \
+            patchelf \
+            build-essential \
+            curl \
+            wget \
+            file
+
+      - name: Compile Layout bundles
+        run: |
+          node scripts/build-layouts.js
+
+      - name: Build Debian Package (.deb)
+        run: |
+          chmod +x desktop/package_deb.sh
+          ./desktop/package_deb.sh
+
+      - name: Prepare distribution artifacts
+        run: |
+          mkdir -p dist-linux
+          cp desktop/keyflip_*.deb dist-linux/
+          tar -czvf dist-linux/keyflip-linux-x86_64.tar.gz -C desktop/src-tauri/target/release keyflip
+          ls -la dist-linux/
+
+      - name: Upload Artifacts (Actions Tab)
+        uses: actions/upload-artifact@v4
+        with:
+          name: keyflip-linux-packages
+          path: dist-linux/*
+
+      - name: Upload Binaries to Release
+        if: github.event_name == 'release' || startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist-linux/*.deb
+            dist-linux/*.tar.gz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
