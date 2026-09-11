@@ -96,8 +96,20 @@ if (foundSetup) {
 
 function createZipArchive(sourceDir, destinationZip) {
   if (fs.existsSync(destinationZip)) fs.unlinkSync(destinationZip);
+  const normalizedSrc = path.resolve(sourceDir).replace(/\\/g, '/');
+  const normalizedDst = path.resolve(destinationZip).replace(/\\/g, '/');
+
+  // Python zipfile ensures standard POSIX forward-slash ('/') paths required by Mozilla AMO validator
+  const pyScript = `import os, zipfile; zf = zipfile.ZipFile(r'${normalizedDst}', 'w', zipfile.ZIP_DEFLATED); [zf.write(os.path.join(r, f), os.path.relpath(os.path.join(r, f), r'${normalizedSrc}').replace('\\\\\\\\', '/')) for r, d, files in os.walk(r'${normalizedSrc}') for f in sorted(files)]; zf.close()`;
+  try {
+    execSync(`python -c "${pyScript}"`, { stdio: 'pipe' });
+    return;
+  } catch (e) {
+    console.warn('[WARN] Python zip creation failed, falling back to tar/Compress-Archive:', e.message);
+  }
+
   if (process.platform === 'win32') {
-    execSync(`powershell -NoProfile -Command "Compress-Archive -Path '${sourceDir}\\*' -DestinationPath '${destinationZip}' -Force"`);
+    execSync(`tar.exe -a -c -f "${destinationZip}" -C "${sourceDir}" *`);
   } else {
     execSync(`cd "${sourceDir}" && zip -r -q "${destinationZip}" .`);
   }
