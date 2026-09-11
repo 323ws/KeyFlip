@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function renderPickerList(searchTerm = '') {
-    pickerLangList.innerHTML = '';
+    pickerLangList.replaceChildren();
     const query = searchTerm.toLowerCase().trim();
     const activeId = pickingTarget === 1 ? currentPrimary : currentSecondary;
     const t = I18N[currentUiLang];
@@ -259,13 +259,28 @@ document.addEventListener('DOMContentLoaded', () => {
           const row = document.createElement('div');
           const isActive = item.id === activeId;
           row.className = `picker-item ${isActive ? 'active' : ''}`;
-          row.innerHTML = `
-            <div class="picker-item-left">
-              <span class="picker-item-flag">${item.flag}</span>
-              <span class="picker-item-name">${item.name}</span>
-            </div>
-            ${isActive ? '<span class="picker-item-check">✓</span>' : ''}
-          `;
+
+          const itemLeft = document.createElement('div');
+          itemLeft.className = 'picker-item-left';
+
+          const flagSpan = document.createElement('span');
+          flagSpan.className = 'picker-item-flag';
+          flagSpan.textContent = item.flag;
+
+          const nameSpan = document.createElement('span');
+          nameSpan.className = 'picker-item-name';
+          nameSpan.textContent = item.name;
+
+          itemLeft.appendChild(flagSpan);
+          itemLeft.appendChild(nameSpan);
+          row.appendChild(itemLeft);
+
+          if (isActive) {
+            const checkSpan = document.createElement('span');
+            checkSpan.className = 'picker-item-check';
+            checkSpan.textContent = '✓';
+            row.appendChild(checkSpan);
+          }
 
           row.addEventListener('click', () => {
             if (pickingTarget === 1) {
@@ -365,14 +380,23 @@ document.addEventListener('DOMContentLoaded', () => {
       heroDisabledIcon.classList.add('hidden');
       mainStatusTitle.className = 'hero-title';
       mainStatusTitle.textContent = t.statusActive;
-      mainStatusDesc.innerHTML = typeof t.descActive === 'function' ? t.descActive(formatted) : t.descActive;
+
+      mainStatusDesc.replaceChildren();
+      const badge = document.createElement('span');
+      badge.className = 'badge-shortcut';
+      badge.textContent = formatted || defaultShortcutText;
+      if (currentUiLang === 'ar') {
+        mainStatusDesc.append(document.createTextNode('حدد أي نص واضغط '), badge, document.createTextNode(' للتصحيح.'));
+      } else {
+        mainStatusDesc.append(document.createTextNode('Select text & press '), badge, document.createTextNode(' to convert.'));
+      }
     } else {
       statusCircle.className = 'status-circle disabled';
       heroActiveIcon.classList.add('hidden');
       heroDisabledIcon.classList.remove('hidden');
       mainStatusTitle.className = 'hero-title disabled';
       mainStatusTitle.textContent = t.statusDisabled;
-      mainStatusDesc.innerHTML = t.descDisabled;
+      mainStatusDesc.textContent = t.descDisabled;
     }
   }
 
@@ -402,7 +426,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     recorderStatusText.classList.add('hidden');
     recorderKeyDisplay.classList.remove('hidden');
-    recorderKeyDisplay.innerHTML = '';
+    recorderKeyDisplay.replaceChildren();
 
     const parts = shortcutStr.split('+').map(p => p.trim());
     parts.forEach((part, index) => {

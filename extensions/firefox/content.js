@@ -324,7 +324,7 @@
       document.body.appendChild(toastContainer);
     }
 
-    toastContainer.innerHTML = '';
+    toastContainer.replaceChildren();
     if (toastTimeout) clearTimeout(toastTimeout);
 
     const toast = document.createElement('div');
@@ -332,10 +332,16 @@
 
     const displayMsg = previewText.length > 30 ? previewText.substring(0, 30) + '...' : previewText;
 
-    toast.innerHTML = `
-      <span class="keyflip-toast-badge">${direction}</span>
-      <span class="keyflip-toast-msg">${escapeHTML(displayMsg)}</span>
-    `;
+    const badge = document.createElement('span');
+    badge.className = 'keyflip-toast-badge';
+    badge.textContent = direction;
+
+    const msg = document.createElement('span');
+    msg.className = 'keyflip-toast-msg';
+    msg.textContent = displayMsg;
+
+    toast.appendChild(badge);
+    toast.appendChild(msg);
 
     toastContainer.appendChild(toast);
 
