@@ -2,6 +2,7 @@
 
 > An instant, offline physical keyboard layout converter for Windows, Linux, and modern web browsers.
 
+<a href="https://www.producthunt.com/products/keyflip?launch=keyflip" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1252725&theme=light" alt="KeyFlip - Instant&#0032;offline&#0032;keyboard&#0032;layout&#0032;&amp;&#0032;text&#0032;converter | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 <a href="https://launchaf.com/" target="_blank" rel="noopener" data-launchaf-badge="true"><img src="https://launchaf.com/api/badge/light?v=launchaf-blue-2026-2" alt="Featured on LaunchAF" width="200" height="56" /></a>
 
 [![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20me-%23047857?style=flat&logo=kofi&logoColor=white)](https://ko-fi.com/N4N21X8U7I)
