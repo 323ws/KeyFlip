@@ -2,6 +2,8 @@
 
 > An instant, offline physical keyboard layout converter for Windows, Linux, and modern web browsers.
 
+<a href="https://launchaf.com/" target="_blank" rel="noopener" data-launchaf-badge="true"><img src="https://launchaf.com/api/badge/light?v=launchaf-blue-2026-2" alt="Featured on LaunchAF" width="200" height="56" /></a>
+
 [![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20me-%23047857?style=flat&logo=kofi&logoColor=white)](https://ko-fi.com/N4N21X8U7I)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue)](desktop/)
 [![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-Manifest%20V3-emerald)](extensions/chrome/)
