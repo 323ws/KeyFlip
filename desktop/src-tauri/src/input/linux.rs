@@ -461,3 +461,9 @@ pub fn send_right_arrow() -> Result<(), LinuxInputError> {
         }
     }
 }
+
+/// Plays audio confirmation feedback beep on Linux (standard ASCII bell).
+#[allow(dead_code)]
+pub fn play_beep() {
+    print!("\x07");
+}

@@ -8,6 +8,10 @@
 [![Firefox Add-on](https://img.shields.io/badge/Firefox%20Add--on-WebExtensions-orange)](extensions/firefox/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+<p align="center">
+  <img src="KeyFlip.gif" alt="KeyFlip Demo" width="100%">
+</p>
+
 ---
 
 ## Overview

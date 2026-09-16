@@ -1,5 +1,5 @@
 #[cfg(target_os = "linux")]
-#[path = "../linux_input.rs"]
+#[path = "../input/linux.rs"]
 mod linux_input;
 
 fn main() {
